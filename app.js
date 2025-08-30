@@ -198,3 +198,4 @@ async function boot() {
   PASSWORD = sessionStorage.getItem('ADMIN_PASSWORD');
   if (!PASSWORD) showLogin(); else { hideLogin(); boot(); }
 })();
+
